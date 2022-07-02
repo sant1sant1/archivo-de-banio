@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-image: url(./media/fondo.jpg);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+}
+
+a {
+    background: rgb(214, 82, 15);
+   color: #ffffff;
+    padding: 2%;
+    border-radius: 30px;
+    width: 150px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+}
+
+
+
+.esp{
+    background: #165db4 !important;
+    text-decoration: none;
+    color: black;
+}
+
+.esp:hover {
+    color: black;
+}
